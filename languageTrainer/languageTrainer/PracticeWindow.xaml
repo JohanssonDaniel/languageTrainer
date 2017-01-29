@@ -1,0 +1,19 @@
+﻿<Window x:Class="languageTrainer.PracticeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:languageTrainer"
+        mc:Ignorable="d"
+        Title="PracticeWindow" Height="350" Width="525">
+    <Grid>
+        <TextBox x:Name="inputForeignBox" HorizontalAlignment="Left" Height="20" Margin="20,160,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="182"/>
+        <TextBox x:Name="inputTranslatedBox" HorizontalAlignment="Left" Height="20" Margin="220,160,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="180"/>
+        <TextBlock x:Name="equalsBlock" HorizontalAlignment="Left" Margin="207,160,0,0" TextWrapping="Wrap" Text="=" VerticalAlignment="Top" RenderTransformOrigin="-1.827,0.627" Height="20"/>
+        <Button x:Name="generateButton" Content="Generate Word" HorizontalAlignment="Left" Margin="20,120,0,0" VerticalAlignment="Top" Width="100" Click="generateButton_Click"/>
+        <Button x:Name="checkButton" Content="Check" HorizontalAlignment="Left" Margin="420,160,0,0" VerticalAlignment="Top" Width="60" Click="checkButton_Click"/>
+        <RadioButton x:Name="foreignRadioButton" Content="Foreign" HorizontalAlignment="Left" Margin="20,80,0,0" VerticalAlignment="Top" Click="foreignRadioButton_Click"/>
+        <RadioButton x:Name="translatedRadioButton" Content="Translated" HorizontalAlignment="Left" Margin="20,100,0,0" VerticalAlignment="Top" Click="translatedRadioButton_Click"/>
+
+    </Grid>
+</Window>

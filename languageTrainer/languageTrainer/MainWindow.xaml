@@ -1,0 +1,15 @@
+﻿<Window x:Class="languageTrainer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:languageTrainer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBlock x:Name="welcomeBlock" HorizontalAlignment="Left" Margin="160,39,0,0" TextWrapping="Wrap" Text="Welcome to my language trainer" VerticalAlignment="Top" TextAlignment="Center" Width="200"/>
+        <Button x:Name="practiceButton" Content="Practice!" HorizontalAlignment="Left" Margin="80,140,0,0" VerticalAlignment="Top" Width="100" Click="practiceButton_Click"/>
+        <Button x:Name="addButton" Content="Add new Words!" HorizontalAlignment="Left" Margin="320,140,0,0" VerticalAlignment="Top" Width="100" Click="addButton_Click"/>
+
+    </Grid>
+</Window>
